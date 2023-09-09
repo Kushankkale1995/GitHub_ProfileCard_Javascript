@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+# Show a card UI with the user's public information.
+1. Ask for a username in the form with a single input field of username.
+2. When the user submits the username, show a nicely designed card with a nicely designed UI showing user public informations
+# Required public information expected to be seen on the card is given below.
+
+1. Avatar Image ( avatar_url )
+2. Username ( login )
+3. Name ( name )
+4. No. of public repos ( public_repos )
+5. No. of public gists ( public_gists )
+5. Profile created in time format of YYYY-MM-DD. ( created_at )
+6. The API path to get the public information of Github users is given below
+
+GET - https://api.github.com/users/{username}
